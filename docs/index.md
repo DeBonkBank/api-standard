@@ -16,7 +16,7 @@ Checks if the API is running.
 
 ## **User endpoints**
 ### Get User Info
-#### **POST** `/users/getinfo`
+#### **POST** `/api/users/getinfo`
 Retrieve account details for a given IBAN.
 
 **Example Request:**  
@@ -41,7 +41,7 @@ POST {NOOB_SERVER}/api/noob/users/getinfo
 ```
 
 ### Withdraw Funds
-#### **POST** `/users/withdraw`
+#### **POST** `/api/users/withdraw`
 Withdraws an amount from the specified IBAN.
 
 **Example Request:**  
