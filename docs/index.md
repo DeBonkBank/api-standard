@@ -1,5 +1,5 @@
 # Noob API Standard
-> Please make sure to read the [NOOB wiki](https://gitlab.cmi.hro.nl/technische-informatica/vakken/project-3-4-tinprj0x-34/noob/-/wikis/API) for NOOB requirements like `NOOB-TOKEN` and bank targeting as those will not be explained here. This will also explain in more detail how exactly the NOOB proxy routes your requests.
+> Please make sure to read the [NOOB wiki](https://gitlab.cmi.hro.nl/technische-informatica/vakken/project-3-4-tinprj0x-34/noob/-/wikis/API) for NOOB requirements like `NOOB-TOKEN` and bank targeting as those will not be explained here. It will also explain in more detail how exactly the NOOB proxy routes your requests.
 
 > If you want to make any changes please [open an issue](https://github.com/DeBonkBank/api-standard/issues) or send a message in the Teams chat.
 
