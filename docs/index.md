@@ -19,7 +19,7 @@ Checks if the API is running.
 Retrieve account details for a given IBAN.
 
 **Example Request:**  
-```http request
+```http
 POST {NOOB_SERVER}/api/noob/users/getinfo
 ```  
 **Request Body:**
@@ -44,7 +44,7 @@ POST {NOOB_SERVER}/api/noob/users/getinfo
 Withdraws an amount from the specified IBAN.
 
 **Example Request:**  
-```http request
+```http
 POST {NOOB_SERVER}/api/noob/users/withdraw
 ``` 
 **Request Body:**
