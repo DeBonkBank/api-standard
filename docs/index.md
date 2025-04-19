@@ -3,6 +3,14 @@
 
 > If you want to make any changes please [open an issue](https://github.com/DeBonkBank/api-standard/issues) or send a message in the Teams chat.
 
+> ## **RFID Card**
+> Standardizatie voor RFID pinpas kaarten.
+> - sector 0:
+>   - blok 1: eerste deel iban (bijv. `NLXX`)
+>   - blok 2: tweede deel iban (bijv. `BONBXXXXXXXXXX`)
+> - sector 1: 
+>   - blok 4: pas nummer (`XXX`)
+
 ## **Health Check**
 #### **GET** `/api/noob/health`
 Checks if the API is running.
