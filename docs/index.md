@@ -10,6 +10,7 @@
 >   - blok 2: tweede deel iban (bijv. `XXXXXXXXXX`)
 > - sector 1: 
 >   - blok 4: pas nummer (`XXX`)
+
 ## **Health Check**
 #### **GET** `/api/noob/health`
 Checks if the API is running.
