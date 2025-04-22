@@ -35,7 +35,8 @@ POST {NOOB_SERVER}/api/noob/users/getinfo
 ```json  
 {
   "iban": "xxxx",
-  "pin": 1234
+  "pin": 1234,
+  "pasnr": 123456789
 }
 ```
 
@@ -61,6 +62,7 @@ POST {NOOB_SERVER}/api/noob/users/withdraw
 {
   "iban": "xxxx",
   "pin": 1234,
+  "pasnr": 123456789
   "amount": 100.00
 }
 ```
