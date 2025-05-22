@@ -23,6 +23,21 @@ Checks if the API is running.
 ```
 
 ## **User endpoints**
+### Error responses
+Als er een foutief request wordt verstuurd, moet hierop worden gereageerd met de meest toepasselijke [HTTP-statuscode](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#client_error_responses), in plaats van de standaard 200 OK-response.
+De response moet minimaal de velden error en message bevatten.
+
+> **Let op:** deze data wordt teruggestuurd naar de client en mag daarom **geen** gevoelige informatie bevatten.
+
+Bijvoorbeeld:
+```json
+HTTP/1.1 401 Unauthorized
+{
+  "error": "AuthenticationFailed",
+  "message": "Invalid credentials."
+}
+```
+
 ### Get User Info
 #### **POST** `/api/users/getinfo`
 Retrieve account details for a given IBAN.
